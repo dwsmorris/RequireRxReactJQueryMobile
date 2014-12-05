@@ -7,11 +7,17 @@
 	<!--[if IE]>
 		<script src="./thirdParty/ie.js"></script>
 	<![endif]-->
-
+	<script src="thirdParty/react.js"></script>
+	<script src="thirdParty/JSXTransformer.js"></script>
 </head>
 <body>
-
+	<div id="example"></div>
 	<script data-main="main.js" src="thirdParty/require-2.1.15.js"></script>
-
+	<script type="text/jsx">
+		React.render(
+			<h1>Hello, world!</h1>,
+			document.getElementById("example")
+		);
+	</script>
 </body>
 </html>
