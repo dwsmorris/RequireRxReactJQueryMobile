@@ -2,13 +2,13 @@
 
 <widget xmlns="http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0"
-  id="com.dwsmorris.BabyNameMeanings"
+  id="com.dwsmorris.requirerxreactjquerymobile"
   version = "1.0.0">
 
   <preference name="phonegap-version" value="3.6.3" />
 
-  <name>Baby Name Meanings</name>
-  <description>Baby Name Meanings</description>
+  <name>RequireRxReactJQueryMobile</name>
+  <description>Componentized, declarative UI development for mobile using RequireJS, RxJS, ReactJS and JQuery Mobile</description>
   <author href="http://www.dwsmorris.com" email="dwsmorris@hotmail.com">
     Darryl Morris
   </author>

@@ -5,7 +5,7 @@
 	paths: {
 		underscore: "thirdParty/underscore-1.6.0",
 		jquery: "thirdParty/jquery-2.0.3",
-		jquerymobileconfig: "js/setup",
+		jquerymobileconfig: "thirdParty/jquery.mobile.config",
 		jquerymobile: "thirdParty/jquery.mobile-1.4.3"
 	},
 	map: {
@@ -19,8 +19,8 @@
 			deps: ["jquery"]
 		},
 		jquerymobile: {
-			deps: ["jquerymobileconfig"]/*,
-			exports: 'jquery'*/
+			deps: ["jquerymobileconfig"],
+			exports: 'jquery'
 		}
 	},
 	modules: [{
